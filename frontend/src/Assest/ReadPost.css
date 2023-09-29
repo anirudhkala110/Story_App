@@ -1,0 +1,31 @@
+#read-post {
+    max-height: 70vh !important;
+    overflow-y: scroll !important;
+}
+
+.read-post::-webkit-scrollbar {
+    width: 0px;
+}
+
+.heading-post-read {
+    display: flex;
+}
+
+.author-data {
+    border-left: 1px solid #279161;
+}
+
+
+@media only screen and (max-width:1000px) {
+    .heading-post-read {
+        display: block !important;
+    }
+
+    .author-data {
+        border-left: none !important;
+        border-top: 1px solid #279161 !important;
+        padding-left: 0 !important;
+        margin-top: 1% !important;
+        padding-top: 2% !important;
+    }
+}

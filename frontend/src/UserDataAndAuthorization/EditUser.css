@@ -1,0 +1,25 @@
+@media only screen and (max-width:550px) {
+    .user-edit {
+        display: block !important;
+        padding: 0;
+    }
+
+    .user-edit form {
+        width: 97% !important;
+        margin-bottom: 2vh;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+}
+
+.user-edit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    backdrop-filter: blur(50px);
+}
+
+.user-edit form {
+    width: 50%;
+    max-width: 800px;
+}

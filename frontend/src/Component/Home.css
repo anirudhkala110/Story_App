@@ -1,0 +1,36 @@
+.home {
+    backdrop-filter: blur(50px);
+}
+
+.hoverme {
+    transition: .2s ease-in-out;
+}
+
+
+
+.hoverme:hover {
+    /* transform: scale(1.02); */
+    border-bottom: solid 5px rgb(0, 195, 255) !important;
+    margin-top: -5px !important;
+    padding-bottom: 1px !important;
+    box-shadow: 0px 5px 10px 1px rgba(255, 255, 255, 0.233);
+}
+
+.home-base {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.home-base::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* .colms {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 3fr));
+    grid-gap: 10px;
+} */
+
+.description::-webkit-scrollbar {
+    width: 0px;
+}

@@ -1,0 +1,9 @@
+input:focus {
+    border: none;
+    outline: none;
+    outline-color: white;
+}
+
+.login-register {
+    backdrop-filter: blur(50px);
+}
